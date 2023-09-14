@@ -1,0 +1,25 @@
+
+.gallery {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+.gallery>h3 {
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery h3>button {
+
+    width: 150px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

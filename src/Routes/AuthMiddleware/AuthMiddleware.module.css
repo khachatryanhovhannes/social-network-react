@@ -1,0 +1,32 @@
+.navBar{
+    padding: 10px 40px !important;
+    background-color: rgb(203, 213, 221);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    padding: 0 30px !important;
+    font-weight: 200;
+}
+
+.navBar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+}
+
+.link{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px !important;
+    cursor: pointer;
+    color: black;
+}
+
+li.link{
+    border: 1px solid rgb(16, 195, 255);
+    border-radius: 10px;
+}

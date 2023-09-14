@@ -1,0 +1,12 @@
+
+
+.likeButton{
+    position: absolute;
+    margin-top: 10px;
+    cursor: pointer;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(126, 126, 126, 0.5);
+    border: none;
+    font-size: 15px;
+}

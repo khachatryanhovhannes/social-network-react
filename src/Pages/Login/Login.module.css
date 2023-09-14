@@ -1,0 +1,55 @@
+.signUpBackground{
+    border: 0.1px solid transparent;
+}
+
+.signUpBackground form{
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(216, 255, 255);
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.signUpBackground input:not(input[type='submit']){
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.signUpBackground input:not(input[type='submit']):focus{
+    outline: 2px solid rgb(117, 211, 243);
+}
+
+.signUpBackground input[type='submit']{
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(117, 211, 243);
+    color: white;
+    cursor: pointer;
+}
+
+.signUpBackground input[type='submit']:hover{
+    background-color: rgb(62, 149, 179);
+}
+
+.authErr{
+    margin-top: 20px;
+    color: red;
+}
+.authErr{
+    margin-top: 20px !important;
+    color: red;
+    height: 10px;
+    font-size: 12px;
+}

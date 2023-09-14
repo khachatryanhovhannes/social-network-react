@@ -1,0 +1,28 @@
+.settings{
+    padding: 30px !important;
+}
+
+.settings form{
+    margin-top: 20px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.settings input{
+    width: 150px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.settings input[type = 'file']{
+    border: 1px solid black;
+}
+
+.settings input::-webkit-file-upload-button{
+    display: none;
+}

@@ -1,0 +1,13 @@
+img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.userProfileBack{
+    padding: 30px !important;
+}
+
+.userProfile{
+    display: flex;
+    justify-content: space-between;
+}
